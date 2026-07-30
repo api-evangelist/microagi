@@ -1,8 +1,14 @@
 aid: microagi
 name: Microagi
-description: 'Microagi is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Microagi (stylized microagi) is a data research lab building end-to-end
+  physical, embodied AGI, with a stated focus on reliable real-world deployments; its
+  public positioning is "Accelerating embodied AGI." Backed by Northzone, the company
+  is early-stage: as of this profile its public presence is a single marketing site
+  at microagi.ai with no published developer API, documentation, SDKs, CLI, or agent
+  surface. This API Evangelist profile tracks Microagi as a portfolio lead; artifacts
+  here are limited to a live domain-security probe of the marketing host until a developer
+  surface is published. (Note: the unrelated github.com/microagi org, "µAGI / microagi.dev"
+  by Vitakka Consulting, is a separate entity and is deliberately not attributed here.)'
 url: https://raw.githubusercontent.com/api-evangelist/microagi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.microagi.ai/og-image.jpg
 tags:
 - Company
-- Ai
+- AI
+- AGI
+- Embodied AI
+- Physical AI
+- Research Lab
+- Deep Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/microagi-domain-security.yml
 - type: Website
   url: https://www.microagi.ai
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
